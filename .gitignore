@@ -1,0 +1,6 @@
+venv/
+frontend/
+__pycatche__/
+
+encoded.csv
+copy_file.txt
