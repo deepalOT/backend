@@ -1,7 +1,4 @@
-from fastapi import FastAPI, Depends
-from fastapi.encoders import jsonable_encoder
-from sqlalchemy.orm import Session
-from sqlalchemy.sql import text
+from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from src.app import router as app_router
 
